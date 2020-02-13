@@ -12,6 +12,6 @@
 */
 
 Route::get('/', function () {
-    return view('aidos');
+    return view('aidos2');
 });
 
