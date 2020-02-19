@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('aidos2');
-});
+Route::get('/', 'RecordController@showAll');
+
+Route::get('/{id}', 'RecordController@show');
 
