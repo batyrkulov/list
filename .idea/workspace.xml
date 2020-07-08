@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74c67328-44ab-453a-974c-4043b9b2418b" name="Default Changelist" comment="now do ajaxes">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/RecordController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Record.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/RecordsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/records/all.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/records/show.blade.php" afterDir="false" />
+    <list default="true" id="74c67328-44ab-453a-974c-4043b9b2418b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Resources/Record.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/scout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/list.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/list.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RecordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RecordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Record.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Record.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/artisan" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_15_061918_create_records_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_02_15_061918_create_records_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_02_15_061918_create_records_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/records/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/records/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/records/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/records/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +27,7 @@
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution>
-      <executable />
-    </execution>
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -142,6 +128,9 @@
       <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravel/scout" />
+      <path value="$PROJECT_DIR$/vendor/algolia/algoliasearch-client-php" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Xkx2VQmDjQCJlBHrKtf4QK2BBD" />
@@ -150,24 +139,25 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/js" />
       <recent name="$PROJECT_DIR$/resources/views/records" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views" />
     </key>
   </component>
   <component name="RunManager">
@@ -175,18 +165,6 @@
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -207,7 +185,27 @@
       <workItem from="1581837431017" duration="9930000" />
       <workItem from="1582028365881" duration="36000" />
       <workItem from="1582117688570" duration="7659000" />
-      <workItem from="1582127104153" duration="3903000" />
+      <workItem from="1582127104153" duration="4068000" />
+      <workItem from="1582200435371" duration="1188000" />
+      <workItem from="1582208598481" duration="979000" />
+      <workItem from="1582346076147" duration="1996000" />
+      <workItem from="1582349378627" duration="5404000" />
+      <workItem from="1582365780908" duration="14720000" />
+      <workItem from="1582526828281" duration="5377000" />
+      <workItem from="1582595946480" duration="4681000" />
+      <workItem from="1582605925354" duration="5895000" />
+      <workItem from="1582627366127" duration="1186000" />
+      <workItem from="1582635651176" duration="176000" />
+      <workItem from="1584519588222" duration="2401000" />
+      <workItem from="1584587090180" duration="1239000" />
+      <workItem from="1584712928380" duration="1480000" />
+      <workItem from="1584799304965" duration="586000" />
+      <workItem from="1589959839998" duration="885000" />
+      <workItem from="1589962396120" duration="2074000" />
+      <workItem from="1589970207478" duration="64000" />
+      <workItem from="1590136576406" duration="9000" />
+      <workItem from="1590228908351" duration="125000" />
+      <workItem from="1594175154425" duration="305000" />
     </task>
     <task id="LOCAL-00001" summary="phpstorm test">
       <created>1581614486827</created>
@@ -216,13 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581614486827</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="now do ajaxes">
+      <created>1582131322670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582131322670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="phpstorm test" />
     <MESSAGE value="now do ajaxes" />
@@ -237,6 +243,10 @@
       <screen x="0" y="24" width="1366" height="703" />
     </state>
     <state x="131" y="24" key="CommitChangelistDialog2/0.24.1366.703@0.24.1366.703" timestamp="1582131321203" />
+    <state x="471" y="121" key="FileChooserDialogImpl" timestamp="1589962641051">
+      <screen x="0" y="24" width="1366" height="703" />
+    </state>
+    <state x="471" y="121" key="FileChooserDialogImpl/0.24.1366.703@0.24.1366.703" timestamp="1589962641051" />
     <state width="1320" height="196" key="GridCell.Tab.0.bottom" timestamp="1581840681651">
       <screen x="0" y="24" width="1366" height="703" />
     </state>
@@ -253,18 +263,22 @@
       <screen x="0" y="24" width="1366" height="703" />
     </state>
     <state width="1320" height="196" key="GridCell.Tab.0.right/0.24.1366.703@0.24.1366.703" timestamp="1581840681649" />
-    <state x="283" y="99" key="Vcs.Push.Dialog.v2" timestamp="1581614490877">
+    <state x="283" y="99" key="Vcs.Push.Dialog.v2" timestamp="1582131328322">
       <screen x="0" y="24" width="1366" height="703" />
     </state>
-    <state x="283" y="99" key="Vcs.Push.Dialog.v2/0.24.1366.703@0.24.1366.703" timestamp="1581614490877" />
-    <state x="695" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1582127101050">
+    <state x="283" y="99" key="Vcs.Push.Dialog.v2/0.24.1366.703@0.24.1366.703" timestamp="1582131328322" />
+    <state x="695" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1584714594624">
       <screen x="0" y="24" width="1366" height="703" />
     </state>
-    <state x="695" y="204" key="com.intellij.ide.util.TipDialog/0.24.1366.703@0.24.1366.703" timestamp="1582127101050" />
+    <state x="695" y="204" key="com.intellij.ide.util.TipDialog/0.24.1366.703@0.24.1366.703" timestamp="1584714594624" />
     <state x="347" y="158" key="run.anything.popup" timestamp="1581857645298">
       <screen x="0" y="24" width="1366" height="703" />
     </state>
     <state x="347" y="158" key="run.anything.popup/0.24.1366.703@0.24.1366.703" timestamp="1581857645298" />
+    <state x="346" y="48" width="672" height="678" key="search.everywhere.popup" timestamp="1582613624291">
+      <screen x="0" y="24" width="1366" height="703" />
+    </state>
+    <state x="346" y="48" width="672" height="678" key="search.everywhere.popup/0.24.1366.703@0.24.1366.703" timestamp="1582613624291" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

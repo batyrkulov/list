@@ -15,3 +15,6 @@ Route::get('/', 'RecordController@showAll');
 
 Route::get('/{id}', 'RecordController@show');
 
+Route::post('/add', 'RecordController@add');
+
+Route::post('/find', 'RecordController@find');
